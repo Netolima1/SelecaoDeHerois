@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolha seu personagem - MapaDev Week</title>
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />    
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css">       
+    <link rel="stylesheet" href="./src/css/">
+</head>
+<body>
+    <main>
+        <header class="cabecalho">
+            <h1 class="titulo">
+                Character Select
+            </h1>            
+        </header>
+        <div class="selecao-de-personagens">
+            <div class="personagem-grande personagem-jogador-1">
+                <img src="./src/imagens/Hisoca.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+                <div class="nome">
+                    <h2 id="nome-jogador-1">Hisoca</h2>
+                </div>
+            </div>
+
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="hisoca" data-name="hisoca">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/hisoca.webp" alt="Personagem hisoca">
+                </li>
+
+                <li class="personagem" id="gon" data-name="gon">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/gon.webp" alt="Personagem Homem de ferro">
+                </li>
+
+                <li class="personagem" id="kurapika" data-name="kurapika">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/kurapika.webp" alt="Personagem kurapika">
+                </li>
+
+                <li class="personagem" id="leorio" data-name="leorio">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/leorio.jpg" alt="Personagem leorio">
+                </li>
+
+                <li class="personagem" id="netero" data-name="netero">
+                    <span class="tag">1P</span>
+                    <img src="./src/imagens/Netero.jpg" alt="Personagem Netero">
+                </li>
+
+                <li class="personagem jogador-2-selecionado" id="Kilua" data-name="Kilua">
+                    <span class="tag">2P</span>
+                    <img src="./src/imagens/Kilua.jpg" alt="Personagem kilua">
+                </li>
+
+            </ul>
+
+            <div class="personagem-grande personagem-jogador-2">
+                <img src="./src/imagens/Kilua.png" alt="Personagem selecionado jogador 2" id="personagem-jogador-2">
+                <div class="nome">
+                    <h2>kilua</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
